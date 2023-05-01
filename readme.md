@@ -107,18 +107,33 @@ History for troubleshooting :
   Id CommandLine
   -- -----------
    1 try { . "c:\Users\gouravsingh01\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbenc...
+   
    2 docker build . -t gouravsingh258/laravel-k8:final
+   
    3 docker logout
+   
    4 docker login
+   
    5 docker push gouravsingh258/laravel-k8:final
+   
    6 kubectl apply -f php-service.yaml
+   
    7 kubectl apply -f .\php_service.yaml
+   
    8 kubectl apply -f .\php_deployment.yaml
+   
    9 kubectl apply -f .\nginx_configMap.yaml
+   
   10 kubectl apply -f .\nginx_service.yaml
+  
   11 kubectl apply -f .\nginx_deployment.yaml
+  
   12 kubectl get pods
+  
   13 kubectl get all
+  
   14 kubectl get all
+  
   15 kubectl get endpoints php
+  
   16 minikube service nginx

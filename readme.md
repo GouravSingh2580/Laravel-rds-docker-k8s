@@ -5,8 +5,7 @@ docker-compose build app
 docker-compose up -d
 ```
 
-A demo application to illustrate how Inertia.js works.
-<img width="900" alt="Screenshot 2023-05-02 002127" src="https://user-images.githubusercontent.com/49956754/235510280-b003616c-dd18-4d2d-81e1-7b4433e4dad2.png">
+A demo application to illustrate how it works.
 
 ![](https://user-images.githubusercontent.com/49956754/235510280-b003616c-dd18-4d2d-81e1-7b4433e4dad2.png)
 
